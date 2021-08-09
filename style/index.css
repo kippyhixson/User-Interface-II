@@ -47,3 +47,17 @@ blockquote, q {
         max-width:100%;
         border: 1px solid magenta
     }
+
+
+
+
+	/*Media Queries go here*/
+
+/*tablet view - 800px*/
+/*when the screen size reaches 800px or smaller these rules apply*/
+
+  
+
+
+/*when the screen size reaches 500px or smaller these rules apply*/
+/*mobile view 500px*/
