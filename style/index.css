@@ -48,6 +48,30 @@ blockquote, q {
         border: 1px solid magenta
     }
 
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-section{
+	display:flex;
+	justify-content:center;
+}
+.image-button{
+	background-image: url("https://picsum.photos/600/400");
+	background-repeat: no repeat;
+	background-size: cover;
+	color: white;
+	font-size: large;
+	width: 600px;
+	height: 400px;
+}
+footer{
+	background-color: lightblue;
+	padding: 20px;
+	text-align: center;
+}
+
 
 
 
@@ -66,5 +90,5 @@ blockquote, q {
 /*mobile view 500px*/
 @media (max-width: 500px){
 
-	
+
 }
