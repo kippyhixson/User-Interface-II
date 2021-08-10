@@ -75,6 +75,21 @@ nav{
 .portfolio-element{
 	text-align:center;
 }
+button{
+	background-color:lightgrey;
+	color:navy;
+	border: navy solid 1px;
+	padding: 5px 10px;
+}
+button:hover{
+	background-color:black;
+	color:lightblue;
+	border: lightgrey 1px;
+}
+button a{
+	text-decoration: none;
+	color:inherit;
+}
 
 footer{
 	background-color: lightblue;
