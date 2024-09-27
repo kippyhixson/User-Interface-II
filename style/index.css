@@ -47,3 +47,73 @@ blockquote, q {
         max-width:100%;
         border: 1px solid magenta
     }
+
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-section{
+	display:flex;
+	justify-content:center;
+}
+.image-button{
+	background-image: url("https://picsum.photos/600/400");
+	background-repeat: no repeat;
+	background-size: cover;
+	color: white;
+	font-size: large;
+	width: 600px;
+	height: 400px;
+}	
+.row{
+	display:flex;
+	justify-content: space-evenly;
+	flex-direction:row;
+	padding: 20px;
+}	
+.portfolio-element{
+	text-align:center;
+}
+button{
+	background-color:lightgrey;
+	color:navy;
+	border: navy solid 1px;
+	padding: 5px 10px;
+}
+button:hover{
+	background-color:black;
+	color:lightblue;
+	border: lightgrey 1px;
+}
+button a{
+	text-decoration: none;
+	color:inherit;
+}
+
+footer{
+	background-color: lightblue;
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+
+	/*Media Queries go here*/
+
+/*tablet view - 800px*/
+/*when the screen size reaches 800px or smaller these rules apply*/
+@media (max-width: 800px){
+
+
+}
+  
+
+
+/*when the screen size reaches 500px or smaller these rules apply*/
+/*mobile view 500px*/
+@media (max-width: 500px){
+
+
+}
